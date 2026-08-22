@@ -5,3 +5,4 @@ words = {
 }
 
 word = input('Enter a word you want the meaning of: ')
+print(words[word])
