@@ -11,3 +11,11 @@ print(fact)
 
 # using while loop
 print('using while loop')
+
+n = int(input('Enter a number for Factorial: '))
+fact1 = 1
+j = 1
+while(j<=n):
+    fact1 *= j
+    j+=1
+print(fact1)
