@@ -14,7 +14,7 @@ revDict = {
 
 you = Dict[youstr]
 
-print(f"Computer Chose {revDict[computer]} and You Chose {revDict[you]}")
+print(f"Computer Chose {revDict[computer]} \nYou Chose {revDict[you]}")
 
 if (computer == you):
     print("Its a Draw")
