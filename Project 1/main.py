@@ -6,22 +6,33 @@ Dict = {
     "g" : 0
 }
 
+revDict = {
+    1 : "Snak",
+    -1 : "Water",
+    0 : "Gun"
+}
+
 you = Dict[youstr]
 
-if (computer == -1 and you == 1):
-    print("You win")
-elif(computer == -1 and you == 0):
-    print("You lose")
-elif(computer == 1 and you == -1):
-    print("You lose")
-elif(computer == 1 and you == 0):
-    print("You win")
-elif(computer == 0 and you == -1):
-    print("You win")
-elif(computer == 0 and you == 1):
-    print("You lose")
+print(f"Computer Chose {revDict[computer]} and You Chose {revDict[you]}")
+
+if (computer == you):
+    print("Its a Draw")
 else:
-    print("Somthing went wrong! \nPlease try again...")
+    if (computer == -1 and you == 1):
+        print("You win")
+    elif(computer == -1 and you == 0):
+        print("You lose")
+    elif(computer == 1 and you == -1):
+        print("You lose")
+    elif(computer == 1 and you == 0):
+        print("You win")
+    elif(computer == 0 and you == -1):
+        print("You win")
+    elif(computer == 0 and you == 1):
+        print("You lose")
+    else:
+        print("Somthing went wrong! \nPlease try again...")
 
 
 '''
