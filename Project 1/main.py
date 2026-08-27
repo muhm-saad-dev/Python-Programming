@@ -1,4 +1,6 @@
-computer = -1
+import random
+
+computer = random.choice([-1, 0, 1])
 youstr = input("Enter Your Choice: ")
 Dict = {
     "s" : 1,
