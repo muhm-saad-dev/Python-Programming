@@ -16,6 +16,9 @@ f = open("file.txt")
 # line4 = f.readline()
 # print(line4, type(line4))
 
-
+line = f.readline()
+while(line != ""):
+    print(line)
+    line = f.readline()
 
 f.close()
