@@ -4,6 +4,5 @@ class employee:
 
 
 saad = employee()
-saad.name = "Saad"   # This is an instance attribute
+saad.language = "Java"   # This is an instance attribute
 print(saad.language, saad.salary)
-print(saad.name)
