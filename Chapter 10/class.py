@@ -1,8 +1,9 @@
 class employee:
-    name = "saad"
-    language = "py"
+    language = "py"  # This is a class attribute
     salary = 1300000
 
 
 saad = employee()
-print(saad.name, saad.language)
+saad.name = "Saad"   # This is an object attribute
+print(saad.language, saad.salary)
+print(saad.name)
