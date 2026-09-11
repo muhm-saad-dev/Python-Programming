@@ -4,8 +4,8 @@ class employee:
 
     def get_info(self):
         print(f"The language is {self.language} and salary is {self.salary}")
-
-    def greet(self):
+    @staticmethod # it prevent to get the self perameter as a whole object 
+    def greet():
         print("hello, i am greeting you")
 
 
