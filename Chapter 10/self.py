@@ -5,8 +5,12 @@ class employee:
     def get_info(self):
         print(f"The language is {self.language} and salary is {self.salary}")
 
+    def greet(self):
+        print("hello, i am greeting you")
+
 
 saad = employee()
 saad.language = "Java"   # This is an instance attribute
 saad.get_info() # This is Same as under
 employee.get_info(saad) # as this is written 
+saad.greet()
