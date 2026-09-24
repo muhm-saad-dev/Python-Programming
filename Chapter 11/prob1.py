@@ -15,7 +15,7 @@ class ThreeDvector(TwoDvector):
         print(f"The 3D vector is {self.i}i + {self.j}j + {self.k}k")
 
 a = TwoDvector(1, 2)
-b = ThreeDvector(1, 2, 3)
+b = ThreeDvector(9, 2, 3)
 
 a.show()
 b.show()
