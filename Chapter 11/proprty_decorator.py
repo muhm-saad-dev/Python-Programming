@@ -4,8 +4,17 @@ class Employee:
     def show(cls):
         print(f"The value of class attribute is {cls.a}")
 
+    @property
+    def name(self):
+        return f"{self.fname} {self.lname}"
+
+    @name.setter
+    def name(self, value):
+        self.fname = value.split(" ")[0]
+        self.lname = value.split(" ")[1]
+
 e = Employee()
 e.a = 50
-e.name = "Saad"
+e.name = "Muhammad Saad"
 print(e.name)
 e.show()
