@@ -1,0 +1,7 @@
+try:
+    a = int(input("Enter a number: "))
+    print(a)
+except Exception as e: # Through an error as output and complete the program execution without crashing
+    print(e)
+
+print("Thank You")
